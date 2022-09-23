@@ -1437,7 +1437,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -4274,9 +4274,9 @@ tbody.collapse.in {
     -webkit-transition-duration: .35s;
     -o-transition-duration: .35s;
     transition-duration: .35s;
-    -webkit-transition-property: height, visibility;
+    /* -webkit-transition-property: height, visibility;
     -o-transition-property: height, visibility;
-    transition-property: height, visibility
+    transition-property: height, visibility; */
 }
 
 .caret {
@@ -4286,7 +4286,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4373,7 +4373,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5124,12 +5123,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+/* @media (max-device-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
     }
-}
+} */
 
 .container-fluid>.navbar-collapse,
 .container-fluid>.navbar-header,
@@ -5251,7 +5250,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 20px
+    line-height: 20px;
 }
 
 @media (max-width:767px) {
