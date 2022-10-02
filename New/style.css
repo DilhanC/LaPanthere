@@ -753,8 +753,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #0017aab7;
     padding: 40px 40px 40px 40px;
+    border-radius: 8rem;
 }
 
 .bold-link {
@@ -790,7 +791,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #0017aa!important;
+    color: #ffffff!important;
 }
 
 .ltc-white:hover {
